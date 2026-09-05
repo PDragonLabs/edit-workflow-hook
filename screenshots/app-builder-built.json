@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "PDragonLabs Shed",
+      "hasCanvas": true,
+      "bodyTextLen": 350,
+      "bodyTextHash": "b4f8f7f896514ad11c28719ffc2b6a362548cc1dce516ddc15225492069e573c",
+      "bodyTextPrefix": "AIVIDMUSLLM SHED Solve et coagula · As above, so below Export MP",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "PDragonLabs Shed",
+      "hasCanvas": true,
+      "bodyTextLen": 301,
+      "bodyTextHash": "fec5548db9ecd373d3ef1d32636190e3ca53d074b8b25fd6140d84b9de61073d",
+      "bodyTextPrefix": "AIVIDMUSLLM SHED PDRAGONLABS SOLVE ET COAGULA · AS ABOVE, SO BEL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
