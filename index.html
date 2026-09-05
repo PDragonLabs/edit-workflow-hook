@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PDragonLabs Shed</title>
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+    <style>
+      :root { --void:#050807; --ink:#ece7dc; --muted:#8b8578; --copper:#c4783a; --cyan:#3ee8d6; }
+      * { box-sizing: border-box; }
+      body { margin:0; min-height:100dvh; background:var(--void); color:var(--ink); font:16px/1.4 ui-sans-serif,system-ui,sans-serif; }
+      header { display:flex; align-items:center; gap:12px; padding:16px 20px; border-bottom:1px solid rgba(255,255,255,.08); }
+      .sigil { width:28px; height:28px; position:relative; }
+      .sigil span { position:absolute; background:var(--copper); }
+      .sigil i { position:absolute; inset:0; border:2px solid var(--copper); border-radius:50%; }
+      .sigil .h { left:6px; right:6px; top:13px; height:2px; }
+      .sigil .v { top:6px; bottom:6px; left:13px; width:2px; }
+      .kicker { font-size:10px; letter-spacing:.22em; text-transform:uppercase; color:var(--copper); margin:0; }
+      h1 { margin:0; font-size:22px; letter-spacing:.08em; }
+      main { max-width:980px; margin:0 auto; padding:24px 16px 48px; display:grid; gap:24px; }
+      @media (min-width:840px) { main { grid-template-columns:1fr 1fr; } }
+      article { background:#0c100f; border:1px solid rgba(255,255,255,.08); border-radius:8px; overflow:hidden; }
+      video { display:block; width:100%; aspect-ratio:9/16; max-height:70dvh; object-fit:contain; background:#000; }
+      figcaption { padding:12px 14px 16px; font-size:13px; color:var(--muted); }
+      figcaption strong { display:block; color:var(--ink); letter-spacing:.12em; text-transform:uppercase; font-size:12px; margin-bottom:4px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="sigil" aria-hidden="true"><i></i><span class="h"></span><span class="v"></span></div>
+      <div><p class="kicker">AIVIDMUSLLM</p><h1>SHED</h1></div>
+    </header>
+    <main>
+      <article>
+        <video controls playsinline poster="public/hook/assets/visemes/rest.jpg" src="public/hook/assets/PDragonLabs-hook.mp4"></video>
+        <figcaption><strong>Still + captions</strong>13s · the cut</figcaption>
+      </article>
+      <article>
+        <video controls playsinline poster="public/hook/assets/visemes/rest.jpg" src="public/hook/assets/imagine-hook.mp4"></video>
+        <figcaption><strong>Imagine i2v</strong>10s · motion brick from the still</figcaption>
+      </article>
+    </main>
+  </body>
+</html>
