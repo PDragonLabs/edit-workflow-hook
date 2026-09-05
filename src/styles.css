@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Anton";
+  src: url("/hook/assets/fonts/Anton-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Instrument Serif";
+  src: url("/hook/assets/fonts/InstrumentSerif-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body,
+  #app {
+    min-height: 100%;
+  }
+}
+
+@theme {
+  --font-anton: "Anton", system-ui, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-body: "Instrument Serif", Georgia, serif;
+
+  --color-void: #050807;
+  --color-elevated: #0c110f;
+  --color-ink: #f4efe4;
+  --color-muted: #9a9488;
+  --color-copper: #c4783a;
+  --color-cyan: #3ee8d6;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
