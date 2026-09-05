@@ -1,0 +1,29 @@
+{
+  "id": "edit-workflow-hook",
+  "name": "Edit workflow hook",
+  "format": "pdragonlabs.shed/v1",
+  "width": 1080,
+  "height": 1920,
+  "duration": 12.9,
+  "audio": "assets/vo.mp3",
+  "kenBurns": { "from": 1.02, "to": 1.08 },
+  "lockup": {
+    "start": 11.1,
+    "name": "PDRAGONLABS",
+    "motto": "Solve et coagula · As above, so below"
+  },
+  "plates": {
+    "cutout": { "src": "assets/host-cut-916.png" },
+    "still": { "src": "assets/visemes/rest.jpg" },
+    "imagine": { "src": "assets/imagine-hook.mp4", "kind": "video" },
+    "viseme": { "kind": "viseme" }
+  },
+  "captions": [
+    { "id": "wait", "start": 1.05, "end": 1.85, "text": "OKAY WAIT", "size": "xl" },
+    { "id": "chg", "start": 1.8, "end": 3.3, "text": "THIS ACTUALLY CHANGED", "size": "lg" },
+    { "id": "edit", "start": 3.2, "end": 5.4, "text": "HOW I EDIT EVERY VIDEO", "size": "md" },
+    { "id": "follow", "start": 5.35, "end": 6.6, "text": "HIT FOLLOW", "size": "xl" },
+    { "id": "tmrw", "start": 6.5, "end": 8.64, "text": "TOMORROW I'M BREAKING IT DOWN", "size": "md" },
+    { "id": "miss", "start": 8.95, "end": 11.1, "text": "DON'T WANNA MISS IT", "size": "lg" }
+  ]
+}
